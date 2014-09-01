@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Aadressi otsing</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <input id="search_address" type="text" onkeyup="setTimeout(loadXMLDoc, 1000)" />
+
+    <div id="address_results" style="display:none">
+        <div id="results_list"></div>
+        <div id="no_results" style="display:none;">Ühtegi vastet ei leitud. Palun täpsustage otsingutingimust</div>
+        <a href="javascript:close();">Sulge</a>
+    </div>
+
+</body>
+</html>

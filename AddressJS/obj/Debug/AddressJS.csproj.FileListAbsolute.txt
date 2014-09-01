@@ -1,0 +1,6 @@
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\bin\AddressJS.dll.config
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\bin\AddressJS.dll
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\bin\AddressJS.pdb
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.csprojResolveAssemblyReference.cache
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.dll
+c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.pdb
