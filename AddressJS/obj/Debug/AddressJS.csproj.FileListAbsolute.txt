@@ -4,3 +4,9 @@ c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\bin\Addre
 c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.csprojResolveAssemblyReference.cache
 c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.dll
 c:\users\tom\documents\visual studio 2013\Projects\AddressJS\AddressJS\obj\Debug\AddressJS.pdb
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\bin\AddressJS.dll.config
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\bin\AddressJS.dll
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\bin\AddressJS.pdb
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\obj\Debug\AddressJS.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\obj\Debug\AddressJS.dll
+C:\Users\Tom\Documents\GitHub\est-addresses-js\AddressJS\obj\Debug\AddressJS.pdb

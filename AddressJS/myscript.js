@@ -1,5 +1,6 @@
 ﻿
 var counter = 0;
+var availableTags = [];
 
 function loadXMLDoc() {
     var search_string = document.getElementById("search_address").value.replace(/^\s*/, "").replace(/\s*$/, "");
@@ -45,6 +46,7 @@ function parseRequest(results, count) {
             var d = document.createElement("div");
             d.innerHTML = '<a href="javascript:pickAddress(\'' + results.featureMember[e].PikkAadress + '\')">' + results.featureMember[e].PikkAadress + '</a>';
             document.getElementById("results_list").appendChild(d);
+            availableTags.push(results.featureMember[e].PikkAadress);
         }
         return;
     }
@@ -53,6 +55,7 @@ function parseRequest(results, count) {
             var d = document.createElement("div");
             d.innerHTML = '<a href="javascript:pickAddress(\'' + results.featureMember[c][e].PikkAadress + '\')">' + results.featureMember[c][e].PikkAadress + '</a>';
             document.getElementById("results_list").appendChild(d);
+            availableTags.push(results.featureMember[c][e].PikkAadress);
         }
     }
 }
