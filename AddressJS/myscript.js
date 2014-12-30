@@ -1,4 +1,4 @@
-﻿
+﻿// Section for Estonian address search
 var counter = 0;
 var availableTags = [];
 
@@ -23,6 +23,7 @@ function loadXMLDoc() {
 
 function close() {
     document.getElementById("address_results").style.display = "none";
+    $('#address_pick_div').css('visibility', 'hidden');
 }
 
 function clearResults() {
@@ -62,5 +63,16 @@ function parseRequest(results, count) {
 
 function pickAddress(picked_address) {
     document.getElementById("address_results").style.display = "none";
-    document.getElementById("search_address").value = picked_address;
+    document.getElementById("search_address_result").value = picked_address;
+    $('#address_clear').css('visibility', 'visible');
+    $('#address_pick_div').css('visibility', 'hidden');
 }
+
+// Estonian address or other country
+$("#search_address").on("keyup", function () {
+    setTimeout(loadXMLDoc, 1000);
+});
+
+$('#search_address_result').click(function () {
+    $('#address_pick_div').css('visibility', 'visible');
+});
