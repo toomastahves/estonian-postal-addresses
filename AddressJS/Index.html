@@ -7,18 +7,27 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <select class="form-control" id="BillingNewAddress_CountryId">
                     <option value="1" disabled>Eesti</option>
                 </select>
             </div>
-            <div class="col-md-3">
-                <input class="form-control" id="search_address_result" type="text" readonly />
-                <div id="address_pick_div">
-                    Otsi aadressit: <input id="search_address" type="text" /> <a href="javascript:close()">Sulge</a>
-                    <div id="address_results" style="display:none">
-                        <div id="results_list"></div>
-                        <div id="no_results" style="display:none;">Ühtegi vastet ei leitud. Palun täpsustage otsingutingimust</div>
+            <div class="col-md-4">
+                <input class="form-control" id="search_address_result1" type="text" readonly />
+                <div id="address_pick_div1">
+                    Otsi aadressit: <input id="search_address_input1" type="text" /> <a href="javascript:close()">Sulge</a>
+                    <div id="address_results1">
+                        <div id="search_results_list1"></div>
+                        <a href="javascript:close();">Sulge</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" id="search_address_result2" type="text" readonly />
+                <div id="address_pick_div2">
+                    Otsi aadressit: <input id="search_address_input2" type="text" /> <a href="javascript:close()">Sulge</a>
+                    <div id="address_results2">
+                        <div id="search_results_list2"></div>
                         <a href="javascript:close();">Sulge</a>
                     </div>
                 </div>
@@ -29,23 +38,3 @@
     <script src="myscript.js"></script>
 </body>
 </html>
-
-<style>
-    #address_clear {
-        position: absolute;
-        right: 20px;
-        top: 0;
-        bottom: 0;
-        height: 14px;
-        margin: auto;
-        font-size: 14px;
-        cursor: pointer;
-        color: #ccc;
-        visibility: hidden;
-    }
-
-    #address_pick_div {
-        visibility: hidden;
-    }
-
-</style>
