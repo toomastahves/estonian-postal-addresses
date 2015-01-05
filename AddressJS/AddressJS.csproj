@@ -68,7 +68,7 @@
     <Content Include="bootstrap.css" />
     <Content Include="index.html" />
     <Content Include="jquery-1.11.2.js" />
-    <Content Include="myscript.js" />
+    <Content Include="search_estonian_addresses.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
