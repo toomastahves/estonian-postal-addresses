@@ -28,7 +28,7 @@ function searchEstonianAddresses(nameOfResultBox, id) {
         $(searchResultsList).empty();
         if (!results.featureMember.length) {
             for (var e in results.featureMember) {
-                $(searchResultsList).append('<a href="javascript:pickAddress(\'' + results.featureMember[e].PikkAadress + '\')">' + results.featureMember[e].PikkAadress + '</a><br>');
+                $(searchResultsList).append('<a href="javascript:pickAddress(\'' + results.featureMember[e].PikkAadress + '\',\'' + selectedSearchResult + '\')">' + results.featureMember[e].PikkAadress + '</a><br>');
             }
         }
         for (var c = 0; c < results.featureMember.length; c++) {
